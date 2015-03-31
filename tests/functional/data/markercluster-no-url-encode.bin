@@ -1,0 +1,3 @@
+var l0 = L.markerClusterGroup({});
+l0.addLayer(L.marker([51.508,-0.11], {}).bindPopup("test!"));
+testMap.addLayer(l0);

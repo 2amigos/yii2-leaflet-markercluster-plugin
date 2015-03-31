@@ -1,22 +1,48 @@
 {
     "name": "2amigos/yii2-leaflet-markercluster-plugin",
     "description": "Yii2 LeafLet Plugin to provide beautiful, sophisticated, high performance marker clustering solution with smooth animations and lots of great features.",
-    "keywords": ["yii", "extension", "widget", "maps", "leaflet", "plugin"],
+    "keywords": [
+        "2amigos",
+        "yii",
+        "yii2",
+        "yii 2",
+        "extension",
+        "widget",
+        "maps",
+        "leaflet",
+        "plugin"
+    ],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Antonio Ramirez",
-            "email": "ramirez.cobos@gmail.com",
-            "homepage": "http://2amigos.us"
+            "name": "2amigOS! Consulting Group",
+            "email": "hola@2amigos.us",
+            "homepage": "http://2amigos.us",
+            "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/2amigos/yii2-leaflet-markercluster-plugin/issues",
+        "source": "https://github.com/2amigos/yii2-leaflet-markercluster-plugin"
+    },
     "require": {
-        "yiisoft/yii2": "*"
+        "2amigos/yii2-leaflet-extension": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
     },
     "autoload": {
         "psr-4": {
-            "dosamigos\\leaflet\\plugins\\markercluster\\": ""
+            "dosamigos\\leaflet\\plugins\\markercluster\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
         }
     }
 }

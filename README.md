@@ -12,12 +12,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "2amigos/yii2-leaflet-markercluster-plugin" "*"
+composer require 2amigos/yii2-leaflet-markercluster-plugin:~1.0
 ```
 or add
 
 ```json
-"2amigos/yii2-leaflet-markercluster-plugin" : "*"
+"2amigos/yii2-leaflet-markercluster-plugin" : "~1.0"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -33,7 +33,7 @@ Using an external json url source:
 
 // create cluster plugin
 $cluster = new dosamigos\leaflet\plugins\markercluster\MarkerCluster([
-	'jsonUrl' =>  Yii::$app->controller->createUrl('site/json')
+     'jsonUrl' =>  Yii::$app->controller->createUrl('site/json')
 ]);
 
 // install to LeafLet component
@@ -69,7 +69,7 @@ Now, adding markers as we create them:
 
 // create cluster plugin
 $cluster = new dosamigos\leaflet\plugins\markercluster\MarkerCluster([
-	'jsonUrl' =>  Yii::$app->controller->createUrl('site/json')
+     'jsonUrl' =>  Yii::$app->controller->createUrl('site/json')
 ]);
 
 // sample location
@@ -81,8 +81,8 @@ $marker1 = new dosamigos\leaflet\layers\Marker([
 ]);
 
 $marker2 = new dosamigos\leaflet\layers\Marker([
-	'latLng' => $center,
-	'popupContent' => 'Hey! I am a second marker'
+     'latLng' => $center,
+     'popupContent' => 'Hey! I am a second marker'
 ]);
 
 // add them to the cluster plugin
@@ -98,5 +98,5 @@ $leafLet->plugins->install($cluster);
 
 > [![2amigOS!](http://www.gravatar.com/avatar/55363394d72945ff7ed312556ec041e0.png)](http://www.2amigos.us)
 
-<i>Web development has never been so fun!</i>
+<i>Web development has never been so fun!</i>  
 [www.2amigos.us](http://www.2amigos.us)

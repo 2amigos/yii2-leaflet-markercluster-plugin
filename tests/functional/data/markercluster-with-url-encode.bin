@@ -1,0 +1,14 @@
+var l0 = L.markerClusterGroup({});
+$.getJSON('http://example.com/json/', function(data){
+                if(data.markers){
+                    $.each(data.markers, function(){
+                        var marker = L.marker(L.latLng(this.lat, this.lng));
+                        if(this.popup){
+                            marker.bindPopup(this.popup);
+                        }
+                        l0.addLayer(marker);
+                    });
+                }
+            });
+l0.addLayer(L.marker([51.508,-0.11], {}).bindPopup("test!"));
+testMap.addLayer(l0);
