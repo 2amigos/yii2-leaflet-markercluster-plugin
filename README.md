@@ -1,5 +1,12 @@
 Marker Cluster Plugin
-======================
+=====================
+
+[![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-leaflet-markercluster-plugin.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-leaflet-markercluster-plugin/tags)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/2amigos/yii2-leaflet-markercluster-plugin/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-leaflet-markercluster-plugin)
+[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/yii2-leaflet-markercluster-plugin.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-leaflet-markercluster-plugin/code-structure)
+[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-leaflet-markercluster-plugin.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-leaflet-markercluster-plugin)
+[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-leaflet-markercluster-plugin.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-leaflet-markercluster-plugin)
 
 Yii 2 [LeafletJs](http://leafletjs.com/) Plugin to provide beautiful, sophisticated, high performance marker clustering solution with smooth
 animations and lots of great features. This Plugin works in conjunction with [LeafLet](https://github.com/2amigos/yii2-leaflet-extension)
