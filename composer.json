@@ -12,6 +12,7 @@
         "leaflet",
         "plugin"
     ],
+    "homepage": "http://yiiwheels.com/extension/leaflet-markercluster-plugin",
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "authors": [
