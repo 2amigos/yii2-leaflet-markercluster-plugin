@@ -1,5 +1,5 @@
 {
-    "name": "2amigos/yii2-leaflet-markercluster-plugin",
+    "name": "hendriklynx/yii2-leaflet-markercluster-plugin",
     "description": "Yii2 LeafLet Plugin to provide beautiful, sophisticated, high performance marker clustering solution with smooth animations and lots of great features.",
     "keywords": [
         "2amigos",
