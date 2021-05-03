@@ -26,7 +26,7 @@ class MarkerClusterAsset extends AssetBundle
     ];
 
     public $js = [
-        YII_DEBUG ? 'leaflet.markercluster-src.js' : 'js/leaflet.markercluster.js'
+        YII_DEBUG ? 'leaflet.markercluster-src.js' : 'leaflet.markercluster.js'
     ];
 
     public $depends = [
